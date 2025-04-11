@@ -252,7 +252,7 @@ h6 {
     bottom: -6px;
     left: 0;
     background-color: var(--accent-color);
-    visibility: visible;
+    visibility: none;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
   }
