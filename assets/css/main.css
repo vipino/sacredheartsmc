@@ -169,7 +169,8 @@ h6 {
 .header {
   --background-color: rgba(255, 255, 255, 0);
   color: var(--default-color);
-  background-color: #081d3c; 
+  background-color: #081d3c;
+ /*  #081d3c;  */
   /* : var(--background-color);*/
   padding: 15px 0;
   transition: all 0.5s;
@@ -353,7 +354,8 @@ h6 {
     margin: 0;
     border-radius: 6px;
     background-color: var(--nav-mobile-background-color);
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    /* border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);*/
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 0%);
     box-shadow: none;
     overflow-y: auto;
     transition: 0.3s;
@@ -386,7 +388,8 @@ h6 {
     justify-content: center;
     border-radius: 50%;
     transition: 0.3s;
-    background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+    /*background-color: color-mix(in srgb, var(--accent-color), transparent 90%);*/
+    background-color: color-mix(in srgb, var(--accent-color), transparent 0%);
   }
 
   .navmenu a i:hover,
