@@ -69,7 +69,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
-  background: url(../img/bg.jpg) top center no-repeat;
+  /*background: url(../img/logo.jpg) top center no-repeat;*/
   background-size: cover;
   position: relative;
 }
@@ -170,7 +170,7 @@ h6 {
   --background-color: rgba(255, 255, 255, 0);
   color: var(--default-color);
   background-color: #696969;
- /*  #081d3c;  */
+ /*  #696969 #081d3c;  */
   /* : var(--background-color);*/
   padding: 15px 0;
   transition: all 0.5s;
