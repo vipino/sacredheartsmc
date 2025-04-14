@@ -169,7 +169,7 @@ h6 {
 .header {
   --background-color: rgba(255, 255, 255, 0);
   color: var(--default-color);
-  background-color: #081d3c;
+  background-color: #696969;
  /*  #081d3c;  */
   /* : var(--background-color);*/
   padding: 15px 0;
